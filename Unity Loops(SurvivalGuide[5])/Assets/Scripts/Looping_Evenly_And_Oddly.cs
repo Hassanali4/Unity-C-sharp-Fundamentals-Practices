@@ -7,7 +7,7 @@ public class Looping_Evenly_And_Oddly : MonoBehaviour
     /// HINT : User moduluse operator
     /// </summary>
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
         //Create a program that prints out 0 - 10
         for (int i = 0; i < 30; i++)

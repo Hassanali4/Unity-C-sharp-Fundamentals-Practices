@@ -19,7 +19,7 @@ public class QuizeAverageCalculator : MonoBehaviour
 
         //average = Mathf.Round((average / quiz.Length) * 100f) / 100f;
 
-        Debug.Log($"Average is : {average}");
+        Debug.Log($"Average is : {average/quiz.Length}");
 
     }
 }
